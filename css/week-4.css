@@ -1,0 +1,110 @@
+body{
+    background: white;
+    margin:1%;
+    padding: 1%;
+}
+header{
+    padding: 3em;
+    background-image: url('../images/pic6.jpg');
+}
+
+header h1{
+    margin-top: -1em;
+    text-align: center;
+    font-variant: small-caps;
+    color: black;
+}
+
+header nav{
+    margin-top: 3em;
+    padding-left: 6em;
+}
+header a{
+    font-size: 1.5em;
+    font-weight: bold;
+    background: white;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.4em 6% 0.4em 6%;
+    margin-right: 3em;
+    opacity: 0.7;
+    border-radius: 0.2em;
+}
+
+.left{
+    height: 100vh;
+    width: 230px;
+    display: block;
+    background: green;
+    float: left;
+}
+
+.left a{
+    display: block;
+    padding: 15px 10px 10px 15px;
+}
+
+.left img{
+    border: 0.22em solid black;
+}
+
+section{
+    margin-top: 2em;
+}
+
+
+p,h2{
+    margin-left: 245px;
+}
+
+ul li {
+    margin-left: 240px;
+}
+
+nav a:hover{
+    opacity: 1;
+}
+
+#two:active{
+    opacity: 1;
+}
+
+table{
+    margin-left: 350px;
+}
+
+th{
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    background: darkgreen;
+    border-radius: 0.3em 0.3em 0em 0em;
+    border-bottom: 4px solid lawngreen;
+    line-height: 3em;
+    width: 15em;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+#exception{
+    text-align: left;
+    width: 22em;
+    font-size: 1.3em;
+    padding-left: 1em; 
+}
+
+td{
+    text-align: inherit;
+    color: black;
+    background: lightgrey;
+    line-height: 3em;
+    font-size: 1.3em;
+    text-align: center;
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+td:hover{
+    opacity: 0.9;
+}
